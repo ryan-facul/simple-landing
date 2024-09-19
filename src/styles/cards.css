@@ -1,0 +1,44 @@
+#cards{
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+
+.card {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    transition: transform 0.2s;
+    text-align: center;
+    align-self: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: center;
+}

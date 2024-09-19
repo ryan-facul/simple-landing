@@ -1,0 +1,25 @@
+#solucoes{
+    background: var(--light-gray);
+}
+
+#solucoes p {
+    align-self: center;
+    color: var(--second-text-color);
+}
+
+#headerCard{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media (width >=1280px) {
+    #solucoes {
+        background: var(--bg-color);
+        border-top: none;
+
+        >span {
+            position: absolute;
+            top: 0;
+        }
+    }
+}
