@@ -1,7 +1,7 @@
 import Header from "./header";
 import Card from "../components/card";
-import HeroRectangleOne from "../assets/images/rectangleOne.png";
-import HeroRectangleTwo from "../assets/images/rectangleTwo.png";
+import HeroRectangleOne from "../assets/images/RectangleOne.png";
+import HeroRectangleTwo from "../assets/images/RectangleTwo.png";
 import "../styles/hero.css";
 import "../styles/solucoes.css"
 import "../styles/cards.css"
