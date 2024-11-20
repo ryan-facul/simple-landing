@@ -47,7 +47,9 @@ function Home() {
                         <Card></Card>
                     </div>
                 </section>
-                <Contato></Contato>
+                <section id="Send">
+                    <Contato></Contato>
+                </section>
             </div>
         </>
     )
