@@ -15,11 +15,7 @@ export default function Contato() {
         try {
             const response = await fetch('https://testesandro-678569712894.us-central1.run.app', {
             method: 'POST',
-            headers: {
-                'Access-Control-Allow-Origin': 'https://testesandro-678569712894.us-central1.run.app',
-                'Content-Type': 'application/json',
-                'Accept': 'application/json',
-            },
+            mode: 'no-cors',
             body: JSON.stringify(data),
             });
 
