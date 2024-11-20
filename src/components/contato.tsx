@@ -11,10 +11,13 @@ export default function Contato() {
 
     async function enviarEmail(nome:string, email:string): Promise<void> {
         const data = {nome, email};
+
+        console.log('Teste 1 = ' + JSON.stringify(data));
         
         try {
             const response = await fetch('https://testesandro-678569712894.us-central1.run.app', {
             method: 'POST',
+            headers: {'Content-Type':'application/json'},
             mode: 'no-cors',
             body: JSON.stringify(data),
             });
