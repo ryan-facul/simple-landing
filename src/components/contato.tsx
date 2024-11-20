@@ -9,9 +9,12 @@ export default function Contato() {
     const [nome, setNome] = useState('');
     const [email, setEmail] = useState('');
 
-    async function enviarEmail(nome:string, email:string): Promise<void> {
-        const data = {nome, email};
-
+    async function enviarEmail(name:string, mail:string): Promise<void> {
+        const data = {
+            nome: name,
+            email: mail,
+        };
+        
         console.log('Teste 1 = ' + JSON.stringify(data));
         
         try {
