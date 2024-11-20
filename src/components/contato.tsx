@@ -21,7 +21,6 @@ export default function Contato() {
             const response = await fetch('https://testesandro-678569712894.us-central1.run.app/receba', {
             method: 'POST',
             headers: {'Content-Type':'application/json'},
-            mode: 'no-cors',
             body: JSON.stringify(data),
             });
 
