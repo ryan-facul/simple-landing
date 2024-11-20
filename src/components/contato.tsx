@@ -20,7 +20,10 @@ export default function Contato() {
         try {
             const response = await fetch('https://testesandro-678569712894.us-central1.run.app/receba', {
             method: 'POST',
-            headers: {'Content-Type':'application/json'},
+            headers: {
+                'Content-Type':'application/json',
+                'Access-Control-Allow-Origin':'*',
+            },
             body: JSON.stringify(data),
             });
 
