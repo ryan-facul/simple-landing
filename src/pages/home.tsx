@@ -1,11 +1,13 @@
 import Header from "./header";
 import Card from "../components/card";
-import HeroRectangleOne from "../assets/images/RectangleOne.png";
-import HeroRectangleTwo from "../assets/images/RectangleTwo.png";
+import HeroRectangleOne from "../assets/images/rectangleOne.png";
+import HeroRectangleTwo from "../assets/images/rectangleTwo.png";
 import "../styles/hero.css";
 import "../styles/solucoes.css"
 import "../styles/cards.css"
+import Contato from "../components/contato";
 import Button from "../components/button";
+
 
 
 function Home() {
@@ -45,6 +47,7 @@ function Home() {
                         <Card></Card>
                     </div>
                 </section>
+                <Contato></Contato>
             </div>
         </>
     )
