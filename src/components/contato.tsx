@@ -1,5 +1,6 @@
 import Send from "./send.tsx";
 import "../styles/send.css"
+import "../styles/button.css"
 import { useState } from "react";
 
 
