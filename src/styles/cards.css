@@ -42,3 +42,10 @@
     margin-bottom: 10px;
     text-align: center;
 }
+
+@media (width <940px) {
+    #cards{
+        margin-bottom: 30px;
+        margin-left: 7%;
+    }
+}
