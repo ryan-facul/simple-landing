@@ -1,5 +1,5 @@
 import Send from "./send.tsx";
-import "../styles/button.css"
+import "../styles/button.css";
 import { useState } from "react";
 
 
@@ -23,14 +23,16 @@ export default function Contato() {
             body: JSON.stringify(data),
             });
             
-            console.log(response.status)
+            console.log(response.status);
             
             if (response.status == 200) {
                 console.log('Requisição recebida');
                 alert('Email enviado, verifique sua caixa de Spam');
+            } else if(response.status == 201){
+                console.log('Preflight request bem sucedido');
             } else {
                 alert('Falha ao enviar o email!');
-                throw new Error('Erro na requisição: ' + response.status)   
+                throw new Error('Erro na requisição: ' + response.status);
             }
             const result = await response.json();
             console.log(result);
@@ -63,5 +65,5 @@ export default function Contato() {
             </header>
             
         </>
-    )
+    );
 }
