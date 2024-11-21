@@ -1,6 +1,7 @@
 #send {
     background: var(--light-gray);
     border-top: 0.125rem solid #e4e4e4;
+    margin-bottom: 4%;
     display: flex;
 }
 
@@ -12,6 +13,7 @@
 }
 
 #send p {
+    display: ruby;
     color: var(--second-text-color);
 }
 
