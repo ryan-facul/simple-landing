@@ -8,6 +8,7 @@ import "../styles/cards.css";
 import "../styles/send.css";
 import Contato from "../components/contato";
 import Button from "../components/button";
+import Footer from "../components/footer";
 
 
 
@@ -51,6 +52,7 @@ function Home() {
                 <section id="send">
                     <Contato></Contato>
                 </section>
+                <Footer></Footer>
             </div>
         </>
     )
