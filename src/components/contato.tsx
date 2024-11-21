@@ -15,8 +15,6 @@ export default function Contato() {
             email: mail,
         };
         
-        console.log('Teste 1 = ' + JSON.stringify(data));
-        
         try {
             const response = await fetch('https://testesandro-678569712894.us-central1.run.app/receba', {
             method: 'POST',
@@ -25,11 +23,16 @@ export default function Contato() {
             },
             body: JSON.stringify(data),
             });
-
-            if (!response.ok) {
-                throw new Error('Erro na requisição: ' + response.status);
+            
+            console.log(response.status)
+            
+            if (response.status == 200) {
+                console.log('Requisição recebida');
+                alert('Email enviado, verifique sua caixa de Spam');
+            } else {
+                alert('Falha ao enviar o email!');
+                throw new Error('Erro na requisição: ' + response.status)   
             }
-        
             const result = await response.json();
             console.log(result);
 
