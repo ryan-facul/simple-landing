@@ -1,7 +1,6 @@
 #send {
     background: var(--light-gray);
     border-top: 0.125rem solid #e4e4e4;
-    height: 90vh;
     display: flex;
 }
 
