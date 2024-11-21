@@ -31,6 +31,37 @@
     margin-bottom: 20%;
 }
 
+#send label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+}
+
+#send input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+#send input:focus {
+    border-color: #5e81f4;
+    outline: none;
+    background-color: #fff;
+}
+
+#send input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
 @media (width >=1280px) {
     #send {
         background: var(--bg-color);
