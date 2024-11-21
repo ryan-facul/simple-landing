@@ -1,6 +1,8 @@
 #cards{
     padding-bottom: 30px;
-    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -43,9 +45,26 @@
     text-align: center;
 }
 
-@media (width <940px) {
+@media (width <680px) {
     #cards{
+        display: block;
         padding-bottom: 30px;
         padding-left: 8%;
+    }
+    .cards{
+        display: flex;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px #0000001a;
+        overflow: hidden;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 30px;
+        transition: transform .2s;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 }
