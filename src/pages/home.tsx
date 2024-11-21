@@ -48,7 +48,7 @@ function Home() {
                         <Card></Card>
                     </div>
                 </section>
-                <section id="Send">
+                <section id="send">
                     <Contato></Contato>
                 </section>
             </div>
