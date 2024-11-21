@@ -54,7 +54,7 @@ export default function Contato() {
                     <h2>Produtos exclusivos para você</h2>
                 </span>
                 <p>Forneça seu nome e e-mail abaixo para receber ofertas e produtos exclusivos, saiba mais sobre nossa empresa esteja mais próximo das soluções ideais para você.</p>
-                <div className="flex input">
+                <div className="input">
                     <input type="text" value={email} 
                         onChange={event => setEmail(event.target.value)} placeholder="Seu e-mail" />
                     <input type="text" value={nome}
