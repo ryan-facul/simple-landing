@@ -1,0 +1,61 @@
+footer {
+    background-color: var(--bg-color);
+    color: var(--second-text-color);
+    padding: var(--py-lg) var(--px-lg);
+    text-align: center;
+    border-top: 2px solid var(--secondary-color);
+}
+
+footer h3 {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+    margin: 0 0 var(--py-sm);
+    color: var(--primary-color);
+}
+
+footer p {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-base);
+    color: var(--second-text-color);
+    margin: 0;
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: var(--fw-md);
+    margin-top: var(--py-sm);
+    display: inline-block;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    margin-top: var(--py-base);
+}
+
+.footer-links a {
+    margin: 0 1rem;
+    font-size: var(--fs-sm);
+    color: var(--second-text-color);
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+.footer-socials {
+    margin-top: var(--py-base);
+}
+
+.footer-socials a {
+    font-size: var(--fs-lg);
+    margin: 0 0.5rem;
+    color: var(--second-text-color);
+}
+
+.footer-socials a:hover {
+    color: var(--primary-color);
+}
